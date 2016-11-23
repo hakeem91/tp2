@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head>
+<body>
+<form action="http://www.iut-fbleau.fr/sitebp/post.php" method="post">
+  <label for="Nom">Nom</label>
+  <input type="text"  name="nom" id="Nom" required>
+<br>
+  </br>
+  <label for="Prénom">Prénom</label>
+  <input type="text"  name="Prénom"id="Prénom" required>
+  <br>
+  </br>
+<label for="Date">Date</label>
+  <input type="date"  name="date" id="Date" required>
+  <br>
+  </br>
+<label for="mail">Mail</label>
+  <input type="text" name="mail" id="mail" required>
+  <br>
+  </br>
+<label for="Cd">Code Postal</label>
+  <input type="number"  name="code" min="0" max="99999" id="Cd" required>
+  <br>
+  </br>
+<label for="tel">Téléphone portable</label>
+  <input type="text" name="tel" id="tel" required>
+  <br>
+  </br>
+Sexe
+<br>
+</br>
+<input type="checkbox" name="masculin" value="Homme">Homme </input>
+<input type="checkbox" name="feminin" value="Femme">Femme </intput>
+  <br>
+  </br>
+
+  Semestre <SELECT name="Semestre" size="1">
+  <OPTION value="2"> S2 </OPTION>
+  <OPTION value="1"> S1 </OPTION> 
+    <OPTION value="3"> S3 </OPTION>
+      <OPTION value="4"> S4 </OPTION>
+        </Select>
+<br>
+</br>
+     <label for="niveau">Niveau</label>
+     <input type="range"  name="niveau" id="niveau" value="5" min="0" max="10" required>
+     <br>
+  <br>
+     Message
+     <br>
+     </br>
+     <TEXTAREA name="message" roxs=4 cols=40> </TEXTAREA>
+     <br>
+  <br>
+<input type="reset" name="reset" value="reset" </input>
+<br>
+</br>
+  <input type="submit" name="soumission" value="envoyer" />
+  </form>
+  </body>
+</html>
